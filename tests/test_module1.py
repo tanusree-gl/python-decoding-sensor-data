@@ -328,11 +328,13 @@ def test_load_data_load_recs_module1(parse):
 
 @pytest.mark.test_sensor_app_load_data_return_module1
 def test_sensor_app_load_data_return_module1(parse):
+    # from load_data import load_sensor_data
     # First, let's verify the user did not accidentally deleted
     # the two lines provided for them. 
+    # 
+    # data = load_sensor_data()
+    # print("Loaded records {}".format(len(data)))
 
-    # data = []                   # list to store data read from files
-    # print("Sensor Data App")
 
     sensor = parse("sensor_app")
     assert sensor.success, sensor.message

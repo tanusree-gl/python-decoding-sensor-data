@@ -1,4 +1,6 @@
 # Runner script for all modules
+
+
 from load_data import load_sensor_data
 from house_info import HouseInfo 
 from datetime import date,datetime
@@ -23,3 +25,5 @@ print("\nHouse sensor records for date: {} = {}".format(test_date.strftime("%m/%
 # Module 4 code here:
 
 # Module 5 code here:
+
+# Module 6 code here:

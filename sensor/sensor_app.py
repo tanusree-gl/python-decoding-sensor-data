@@ -1,6 +1,4 @@
 # Runner script for all modules
-
-
 from load_data import load_sensor_data
 from house_info import HouseInfo 
 from datetime import date,datetime

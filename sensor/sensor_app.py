@@ -18,12 +18,11 @@ house_info = HouseInfo(data)
 test_area = 1
 recs = house_info.get_data_by_area("id",rec_area = test_area)
 print("\nHouse sensor records for area {} = {}".format(test_area, len(recs)))
-# Module 3 code here:
 test_date = datetime.strptime("5/9/20","%m/%d/%y")
 recd = house_info.get_data_by_date("id",rec_date = test_date)
 print("\nHouse sensor records for date: {} = {}".format(test_date.strftime("%m/%d/%y"), len(recd)))
+# Module 3 code here:
+
 # Module 4 code here:
 
 # Module 5 code here:
-
-# Module 6 code here:
